@@ -6,9 +6,9 @@
 @echo off
 
 ::choose 32 or 64 bits
-set x=x64
+set x=x32
 
-mkdir x64
+mkdir %x%
 
 ::libs first
 copy SDL2-2.0.9\lib\%x%\*.dll 	%x%\
