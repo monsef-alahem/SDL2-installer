@@ -13,9 +13,12 @@ e.g : mingw_path=C:\CodeBlocks\MinGW\
 
 4- copy the dll's from x86 or x64 to EXAMPLE_APP
 
-5- in EXAMPLE_APP folder, run SDL2_compiler.bat
+5- in EXAMPLE_APP folder, edit SDL2_compiler.bat, add the path of your C compiler to the "%PATH%"
+e.g : PATH=%PATH%;C:\codeblocks\MinGW\bin;
 
-6- run myapp.exe
+6- run SDL2_compiler.bat
+
+7- run myapp.exe
 
 
 if it works congrats, your SDL2 installation is done !
