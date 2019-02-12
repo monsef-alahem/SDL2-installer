@@ -5,8 +5,8 @@
 ::============================================
 @echo off
 
-::choose 32 or 64 bits
-set x=x32
+::choose x86(32bit) or x64(64bit)
+set x=x86
 
 mkdir %x%
 
